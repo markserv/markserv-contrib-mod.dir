@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
-<!--html:../partials/head.html-->
-<body>
-  <article class="markdown-body">
-    <h1>Index of {{dir}}</h1>
+<h1>Index of {{dir}}</h1>
 
-
-    <ul>
-      {{#files}}
-        <li class="{{class}}">
-          <a href="{{path}}">{{name}}</a>
-        </li>
-      {{/files}}
-    </ul>
-    <!--html:../partials/footer.html-->
-  </article>
-</body>
-</html>
+<ul>
+  {{#files}}
+    <li class="{{class}}">
+      <a href="{{path}}">{{name}}</a>
+    </li>
+  {{/files}}
+</ul>
