@@ -1,6 +1,6 @@
 {
   "name": "markserv-contrib-mod.dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serve a directory listing",
   "repository": "git@github.com:f1lt3r/markserv-contrib-mod.dir",
   "main": "lib/mod.dir.js",
